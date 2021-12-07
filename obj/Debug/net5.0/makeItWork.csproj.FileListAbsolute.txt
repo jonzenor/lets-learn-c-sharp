@@ -1,0 +1,15 @@
+/Users/jonzenor/CodeProjectrs/makeItWork/bin/Debug/net5.0/makeItWork.deps.json
+/Users/jonzenor/CodeProjectrs/makeItWork/bin/Debug/net5.0/makeItWork.runtimeconfig.json
+/Users/jonzenor/CodeProjectrs/makeItWork/bin/Debug/net5.0/makeItWork.runtimeconfig.dev.json
+/Users/jonzenor/CodeProjectrs/makeItWork/bin/Debug/net5.0/makeItWork.dll
+/Users/jonzenor/CodeProjectrs/makeItWork/bin/Debug/net5.0/ref/makeItWork.dll
+/Users/jonzenor/CodeProjectrs/makeItWork/bin/Debug/net5.0/makeItWork.pdb
+/Users/jonzenor/CodeProjectrs/makeItWork/obj/Debug/net5.0/makeItWork.csproj.AssemblyReference.cache
+/Users/jonzenor/CodeProjectrs/makeItWork/obj/Debug/net5.0/makeItWork.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jonzenor/CodeProjectrs/makeItWork/obj/Debug/net5.0/makeItWork.AssemblyInfoInputs.cache
+/Users/jonzenor/CodeProjectrs/makeItWork/obj/Debug/net5.0/makeItWork.AssemblyInfo.cs
+/Users/jonzenor/CodeProjectrs/makeItWork/obj/Debug/net5.0/makeItWork.csproj.CoreCompileInputs.cache
+/Users/jonzenor/CodeProjectrs/makeItWork/obj/Debug/net5.0/makeItWork.dll
+/Users/jonzenor/CodeProjectrs/makeItWork/obj/Debug/net5.0/ref/makeItWork.dll
+/Users/jonzenor/CodeProjectrs/makeItWork/obj/Debug/net5.0/makeItWork.pdb
+/Users/jonzenor/CodeProjectrs/makeItWork/obj/Debug/net5.0/makeItWork.genruntimeconfig.cache
