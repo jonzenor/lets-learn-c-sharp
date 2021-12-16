@@ -20,6 +20,12 @@ namespace makeItWork
             TotalPrice += (ChildTckts * (BaseTicketPrice -3));
 
             Console.Write(AdultTckts + " Adult tickets + " + ChildTckts + " Child Tickets = $" + TotalPrice);
+
+            // Comments are the standard fare. You have this kind
+            /* And this kind. */
+            /*
+                # This kind of comment does not work, though.
+            */
         }
     }
 }
