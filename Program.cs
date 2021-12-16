@@ -2,6 +2,10 @@
 
 namespace makeItWork
 {
+    /***********************************************************************
+        I'm creating this to test out the different code examples given in
+        Programming in the Key of C# by Charles Petzold
+    ***********************************************************************/
     class Program
     {
         static void Main(string[] args)
