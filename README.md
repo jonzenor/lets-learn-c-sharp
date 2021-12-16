@@ -10,7 +10,7 @@
  - - A = B++ will assign B's value to A, and then will increment B.
  - - A = ++B will increment B, and then assign the new value of B to A.
 
- 4. You can check for if an arithmatic calculation results in an overflow or not using the CHECKED() function.
+4. You can check for if an arithmatic calculation results in an overflow or not using the CHECKED() function.
  - checked(X *= X);
  - - This will throw an exception if an overflow happens.
  - You can also use it with multiple lines
@@ -21,7 +21,7 @@
  }
  - This function is performance intensive
 
- 5. Data Types [signed, unsigned]: 8 bit numbers [sbyte, byte], 16 bit numbers [short, ushort], 32 bit numbers [int, uint], 64 bit numbers [long, ulong]
+5. Data Types [signed, unsigned]: 8 bit numbers [sbyte, byte], 16 bit numbers [short, ushort], 32 bit numbers [int, uint], 64 bit numbers [long, ulong]
 
 
 ## Start A Project ##
