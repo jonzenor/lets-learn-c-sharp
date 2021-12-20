@@ -75,6 +75,8 @@ namespace makeItWork
             Console.Write(UnsignedZero + " - 1 = ");
             Console.WriteLine(UnsignedZero - 1);
 
+            Console.WriteLine(Int64.MinValue);
+
         }
     }
 }

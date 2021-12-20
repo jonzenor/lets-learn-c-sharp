@@ -22,7 +22,11 @@
  - This function is performance intensive
 
 5. Data Types [signed, unsigned]: 8 bit numbers [sbyte, byte], 16 bit numbers [short, ushort], 32 bit numbers [int, uint], 64 bit numbers [long, ulong]
-
+ - The compiler will automatically convert the type to a higher type if needed during mathematical operations involving multiple data types. This happens before the calculation happens, so before over/underflow can happen.
+ - If you are adding an int and uint together, DC# will implicitly convert each number to a long for the operation, because that's the only data type that can hold all of the possible values. This means you need to make sure the result is being stored in a long object type, and not an int or uint, or you will get a compile error.
+ - You cannot perform operations using a long and ulong, because there are no data types large enough to hold every possible value, so this is a compile error.
+ - You can explicitley "cast" a type to another type for the purposes of an operation. This does not change the type of the stored value, but only what it counts as during the mathematical operation. i.e. (short) MYVAR + (short) MYVAR2 or (short) (MYVAR + MYVAR2).
+  - Casting may result in bits being lost, though. So be careful. This will only throw an error if you have overflow checking turned on.
 
 ## Start A Project ##
 
