@@ -28,6 +28,10 @@
  - You can explicitley "cast" a type to another type for the purposes of an operation. This does not change the type of the stored value, but only what it counts as during the mathematical operation. i.e. (short) MYVAR + (short) MYVAR2 or (short) (MYVAR + MYVAR2).
   - Casting may result in bits being lost, though. So be careful. This will only throw an error if you have overflow checking turned on.
 
+6. Strings cannot be broken up into multiple lines.
+ - You can use the addition assignment operator with strings. string C = "Hello"; C += " World";
+ - Strings have a .Length property.
+
 ## Start A Project ##
 
 In VS Code:

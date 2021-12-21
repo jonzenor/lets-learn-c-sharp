@@ -54,29 +54,33 @@ namespace makeItWork
             // Console.WriteLine(X *= X);
 
             // Let's see the top and bottom value for a signed integer
-            Console.WriteLine("Signed");
-            int Signed = 2147483647;
-            int SignedZero = 0;
+            // Console.WriteLine("Signed");
+            // int Signed = 2147483647;
+            // int SignedZero = 0;
 
-            Console.Write(Signed + " + 1 = ");
-            Console.WriteLine(Signed + 1);
+            // Console.Write(Signed + " + 1 = ");
+            // Console.WriteLine(Signed + 1);
             
-            Console.Write(SignedZero + " - 1 = ");
-            Console.WriteLine(SignedZero - 1);
+            // Console.Write(SignedZero + " - 1 = ");
+            // Console.WriteLine(SignedZero - 1);
 
-            Console.WriteLine();
-            Console.WriteLine("Unsigned");
-            uint Unsigned = 2147483647;
-            uint UnsignedZero = 0;
+            // Console.WriteLine();
+            // Console.WriteLine("Unsigned");
+            // uint Unsigned = 2147483647;
+            // uint UnsignedZero = 0;
 
-            Console.Write(Unsigned + " + 1 = ");
-            Console.WriteLine(Unsigned +1 );
+            // Console.Write(Unsigned + " + 1 = ");
+            // Console.WriteLine(Unsigned +1 );
 
-            Console.Write(UnsignedZero + " - 1 = ");
-            Console.WriteLine(UnsignedZero - 1);
+            // Console.Write(UnsignedZero + " - 1 = ");
+            // Console.WriteLine(UnsignedZero - 1);
 
-            Console.WriteLine(Int64.MinValue);
+            // Console.WriteLine(Int64.MinValue);
 
+            string Greeting = "Hello, World!";
+
+            Console.Write(Greeting);
+            Console.WriteLine(" = " + Greeting.Length + " Characters");
         }
     }
 }

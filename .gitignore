@@ -1,2 +1,3 @@
 *.cache
 */Debug/*
+bin/Debug/Net5.0/*
