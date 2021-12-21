@@ -31,6 +31,10 @@
 6. Strings cannot be broken up into multiple lines.
  - You can use the addition assignment operator with strings. string C = "Hello"; C += " World";
  - Strings have a .Length property.
+ - Escape all charactesr with a verbatim string. @"This is a bunch of ""text"" for no reason.";
+ - When concatinating text with numbers, pay attention to the order of operations and remember that the compiler will implicitely convert variable types to match what it thinks is needed.
+ - - WriteLine(A + B + " is the sum of A and B"); works like expected
+ - - WriteLine("The sum of A and B is " + A + B); will convert the int to string and display the full numbers concatinated together instead of adding them.
 
 ## Start A Project ##
 
