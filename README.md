@@ -43,3 +43,9 @@ In VS Code:
 In the Create a new project window, select All languages, and then choose C# from the dropdown list. Choose Windows from the All platforms list, and choose Console from the All project types list.
 
 After you apply the language, platform, and project type filters, choose the Console App template, and then select Next.
+
+## Turn a project into an executable script on Mac OS ##
+1. cd to the directory containing the project file (.sln)
+2. Run dotnet publish -r osx-x64 ./<file>.sln
+3. cd to the publish directory that was created by the script (read the output...)
+4. ./<file that matches the project name>
