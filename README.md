@@ -48,8 +48,9 @@
 9. There is no power operator in C#... ^ is an "exclusive or" operator, and ** does not exist in C#.
 
 10. Methods
- - <Access Specifier> <Return Type> <Method Name>(Parameter List) { <Method Body> }
+ - <Access Specifier> [Static] <Return Type> <Method Name>(Parameter List) { <Method Body> }
  - Access Specifier == Determines the visibility of a variable or method from another class
+ - Static == Belongs to the type itself instead of to a specific object.
  - Return Type == The data type of the value the method returns. Or Void for no return value.
 
 ## Start A Project ##
