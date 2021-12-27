@@ -36,6 +36,11 @@
  - - WriteLine(A + B + " is the sum of A and B"); works like expected
  - - WriteLine("The sum of A and B is " + A + B); will convert the int to string and display the full numbers concatinated together instead of adding them.
 
+7. Console Reads
+ - Console.Read returns an int, which is the ASCII value. This messes with future inputs and is weird.
+ - Console.ReadLine returns the string that was entered.
+ - Output with WriteLine("{0}",<input variable name>)
+
 ## Start A Project ##
 
 In VS Code:
