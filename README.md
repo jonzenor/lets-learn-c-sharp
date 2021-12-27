@@ -53,6 +53,12 @@
  - Static == Belongs to the type itself instead of to a specific object.
  - Return Type == The data type of the value the method returns. Or Void for no return value.
 
+11. Try and catch blocks
+ - try { int myInt = int.Parse(stringThatIsNotANumber); } catch (Exception ex) { cw("You failed to follow directions.) cw(ex.ToString()); }
+ - If you hover over the method, it tells you the types of exceptions that you can expect. You can call that exception directly.
+ - - ... catch (FormatException) { cw("This is one of the exceptions from int.Parse"); } catch (Exception ex) { cw("Generic catch all statement."); }
+ - Finally is used at the end of the try/catch block, and runs if there was an error or not. Can be used to close out a file you opened or a remote connection.
+
 ## Start A Project ##
 
 In VS Code:
