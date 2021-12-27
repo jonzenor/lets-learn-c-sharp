@@ -41,6 +41,10 @@
  - Console.ReadLine returns the string that was entered.
  - Output with WriteLine("{0}",<input variable name>)
 
+8. Console properties
+ - Console.ForegroundColor = ConsoleColor.Blue; // Changes the text color. Also BackgroundColor for the BG.
+ - Console.Clear(); // Clears the console text.
+
 ## Start A Project ##
 
 In VS Code:
