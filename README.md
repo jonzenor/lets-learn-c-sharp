@@ -45,6 +45,13 @@
  - Console.ForegroundColor = ConsoleColor.Blue; // Changes the text color. Also BackgroundColor for the BG.
  - Console.Clear(); // Clears the console text.
 
+9. There is no power operator in C#... ^ is an "exclusive or" operator, and ** does not exist in C#.
+
+10. Methods
+ - <Access Specifier> <Return Type> <Method Name>(Parameter List) { <Method Body> }
+ - Access Specifier == Determines the visibility of a variable or method from another class
+ - Return Type == The data type of the value the method returns. Or Void for no return value.
+
 ## Start A Project ##
 
 In VS Code:
