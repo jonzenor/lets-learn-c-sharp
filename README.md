@@ -69,6 +69,25 @@
  - break; will exit out of the loop.
  - continue; will skip the rest of this iteration of the loop and start the loop again at the next iteration.
 
+13. Objects
+ - Objects can be used as data types
+ - The constructor is a public method in the class that has the same name as the class, and no return type.
+ - You use this. to refer to "global" properties set in the class
+ - You can have multiple constructors. One without parameters and then several with different parameters. They all share the same constructor class name.
+ - You can create your own exceptions with: throw new Exception("I take exception to what you did");
+ - Can only create one destructor
+ - Destructors start with a tilde (~) and have no public/private properties before it
+ - - Cannot be called, only called when it "runs out of scope". Used to clean up statements.
+ - - Don't make them unless it's needed.
+
+14. Properties
+ - Properties are similar to variables, but are more involved
+ - The standard convention is to start a property with a capital letter (variables typically start with a lowercase)
+ - Properties include a getter and setter
+ - Set properties with the value keyword in the setter
+ - Quick way: public string FirstName { get; set; }
+ - - When using the quick way you do not need a member variable to store the information in
+
 ## Start A Project ##
 
 In VS Code:
