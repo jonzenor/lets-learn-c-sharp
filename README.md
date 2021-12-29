@@ -27,6 +27,7 @@
  - You cannot perform operations using a long and ulong, because there are no data types large enough to hold every possible value, so this is a compile error.
  - You can explicitley "cast" a type to another type for the purposes of an operation. This does not change the type of the stored value, but only what it counts as during the mathematical operation. i.e. (short) MYVAR + (short) MYVAR2 or (short) (MYVAR + MYVAR2).
   - Casting may result in bits being lost, though. So be careful. This will only throw an error if you have overflow checking turned on.
+  - BOOL cannot store 1/0, only true/false
 
 6. Strings cannot be broken up into multiple lines.
  - You can use the addition assignment operator with strings. string C = "Hello"; C += " World";
@@ -62,6 +63,11 @@
  - - try { } catch () { } finally { }
  - Throw is used to throw the exception and end the program.
  - - ... catch (Exception ex) { throw; }
+
+12. Loops
+ - Do vs while, do loop always runs at least once, then exits if the condition isn't met. While checks the statement first, before running the code.
+ - break; will exit out of the loop.
+ - continue; will skip the rest of this iteration of the loop and start the loop again at the next iteration.
 
 ## Start A Project ##
 
