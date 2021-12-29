@@ -39,7 +39,8 @@
 7. Console Reads
  - Console.Read returns an int, which is the ASCII value. This messes with future inputs and is weird.
  - Console.ReadLine returns the string that was entered.
- - Output with WriteLine("{0}",<input variable name>)
+ - Output with WriteLine("{0}",<input variable name>);
+ - Use var names inside the writeline by starting with $: WriteLine($"{varName} is my variable");
 
 8. Console properties
  - Console.ForegroundColor = ConsoleColor.Blue; // Changes the text color. Also BackgroundColor for the BG.
