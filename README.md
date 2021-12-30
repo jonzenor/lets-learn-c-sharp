@@ -88,6 +88,13 @@
  - Quick way: public string FirstName { get; set; }
  - - When using the quick way you do not need a member variable to store the information in
 
+15. Arrays
+ - An array is limited to a single type at a time
+ - Created with dataType[] arrayName = new dataType[# of entries]
+ - - int[] myArray = new int[5];
+ - You can assign them at the same time with a CSV list: int[] myArray = {0,51,12,43}
+ - Length is a property of the array.
+
 ## Start A Project ##
 
 In VS Code:
