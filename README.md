@@ -92,8 +92,24 @@
  - An array is limited to a single type at a time
  - Created with dataType[] arrayName = new dataType[# of entries]
  - - int[] myArray = new int[5];
- - You can assign them at the same time with a CSV list: int[] myArray = {0,51,12,43}
+ - You can assign them at the same time with a CSV list: int[] myArray = {0,51,12,43};
  - Length is a property of the array.
+
+16. Multi-Dimensional Arrays
+ - These are definitely more confusing than in PHP
+ - This is more like a matrix list than an array of arrays that we are used to in PHP
+ - Every element of the array must be the same size. So if element 0 has 3 rows, then element 1 must also have 3 rows.
+ - The Rank property of the array shows how many dimensions it has.
+ - You do not need to specify the number of elements in the array when you initilize it, only the number of dimensions.
+ - .length property of the array is the total number of elements, not total number of the first dimension, use GetLength(0).
+
+17. Multi-Dimensional ForEach
+ - You can use a single foreach loop to get every element of a multi-dimensional array
+ - - The variable that is storing that item, is read only. You cannot change it to change what is stored in the array
+ - - It will loop through every item in order, no matter the row/column element it is in
+ - Nested for loop (instead of foreach) to create references to the row/column properly, and then you can change the value since you're referencing the array itself
+ - You can use TWO counter variables with a single for loop...
+ - - This is not used very often at all and can look quite confusing.
 
 ## Start A Project ##
 
