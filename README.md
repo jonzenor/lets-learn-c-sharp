@@ -28,6 +28,7 @@
  - You can explicitley "cast" a type to another type for the purposes of an operation. This does not change the type of the stored value, but only what it counts as during the mathematical operation. i.e. (short) MYVAR + (short) MYVAR2 or (short) (MYVAR + MYVAR2).
   - Casting may result in bits being lost, though. So be careful. This will only throw an error if you have overflow checking turned on.
   - BOOL cannot store 1/0, only true/false
+  - Char must be set with single quotes instead of double because reasons?
 
 6. Strings cannot be broken up into multiple lines.
  - You can use the addition assignment operator with strings. string C = "Hello"; C += " World";
@@ -94,6 +95,7 @@
  - - int[] myArray = new int[5];
  - You can assign them at the same time with a CSV list: int[] myArray = {0,51,12,43};
  - Length is a property of the array.
+ - An array can be ANY data type... including an object. Player[] players = { player1, player2 }; // This totally worked! players[0].Name accesses the player1.Name property
 
 16. Multi-Dimensional Arrays
  - These are definitely more confusing than in PHP
@@ -110,6 +112,9 @@
  - Nested for loop (instead of foreach) to create references to the row/column properly, and then you can change the value since you're referencing the array itself
  - You can use TWO counter variables with a single for loop...
  - - This is not used very often at all and can look quite confusing.
+
+18. Terenary Operator
+ - Only used to assign variables, not to execute a method or anything like that.
 
 ## Start A Project ##
 
